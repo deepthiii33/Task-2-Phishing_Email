@@ -10,8 +10,8 @@ Analyze phishing emails using both content-based techniques and email header ana
 
 | File                                                                        | Description                                                                                                  |
 | ------------------------------------------------------------------------    | ------------------------------------------------------------------------------------------------------------ |
-| [`1_phishing-analysis-microsoft.md`](./1_phishing-analysis-microsoft.md)    | Analysis of a phishing email pretending to be from Microsoft, showing visual and contextual phishing traits. |
-| [`2_email-header-analysis-spam.md`](./2_email-header-analysis-spam.md)      | Header analysis of a real spam email received in Gmail, evaluating SPF, DKIM, and DMARC.                     |
+| [`Sample-Phishing_analysis`](phishing-analysis-microsoft.md)                | Analysis of a phishing email pretending to be from Microsoft, showing visual and contextual phishing traits. |
+| [`Spam-email-analysis`](./2_email-header-analysis-spam.md)                  | Header analysis of a real spam email received in Gmail, evaluating SPF, DKIM, and DMARC.                     |
                                                                          
 
 ---
