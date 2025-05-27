@@ -1,39 +1,46 @@
 # 📧 Phishing Email Analysis – Fake Microsoft Security Alert
 
 ## 🕵️ Email Summary:
-This email pretended to be a Microsoft security alert, claiming unusual sign-in activity from another location. It attempted to scare the user into clicking a link.
+The email claimed to be from Microsoft, saying that my account password had recently been changed. It included extra details to appear legitimate — like an IP address, browser type, platform, and country — to make it seem like it was tracking an unusual login attempt.
 
-[](https://github.com/deepthiii33/Task-2-Phishing_Email/blob/main/screenshots/sample_phishing_email.png)
----
+It then told me to click a link to either reset my password or review my security info.
 
-## 🔎 Key Phishing Characteristics:
+The sender name was just “Support” and the email came from `support@msupdate.net`, which raised immediate suspicion.
 
-### 1. **Urgent and Alarming Language**
-- The subject and content warned of a “suspicious sign-in attempt,” urging immediate action.
-- This is a common tactic in phishing to create **panic** and encourage quick, unthinking responses.
-
-### 2. **Spoofed Branding**
-- The layout and color scheme mimicked Microsoft branding.
-- However, subtle visual differences (layout inconsistencies, fonts) revealed it wasn’t an official Microsoft template.
-
-### 3. **Suspicious Links**
-- The "Review Recent Activity" button was present, but **hovering** over it (in the original email) would show that it didn’t go to a legitimate Microsoft domain (e.g., it didn’t link to `login.live.com` or `microsoft.com`).
-- This trick is meant to fool users who don’t check where links really go.
-
-### 4. **Generic Sender Information**
-- The sender was not clearly labeled as Microsoft or from a verified Microsoft domain.
-- Instead, it was something generic or spoofed (e.g., unusual subdomains or unrelated domains like `security-mail@microsoftalerts.online`).
-
-### 5. **No Personalization**
-- The email didn’t include the recipient’s name or account details — it just said “Dear user.”
-- Legitimate services like Microsoft usually personalize their emails and refer to the user’s real name or username.
-
-### 6. **Grammar and Format Issues**
-- There were slight spacing and formatting errors.
-- Legitimate corporate emails are typically well-formatted and proofread.
+![](https://github.com/deepthiii33/Task-2-Phishing_Email/blob/main/screenshots/sample_phishing_email.png)
 
 ---
 
-## ✅ Conclusion:
-This email tries to appear urgent and official, but subtle signs (generic language, suspicious link destination, poor formatting) expose it as phishing. These types of attacks exploit fear of security breaches to trick users into clicking malicious links or giving up credentials.
+## 🔎 What Made It Suspicious?
+
+### 1. **Creating Panic to Trigger Action**
+The message used urgent language like “suspicious sign-in activity” to make me feel like my account was in danger. It pressured me to “review” the activity immediately — a classic scare tactic used in phishing to trick people into clicking without thinking.
+
+### 2. **Too Generic and Impersonal**
+It didn’t address me by name — it just said things like “Dear user.” Real Microsoft alerts usually mention your name or at least the account or device involved.
+
+### 3. **The Link Looked Off**
+There was a button that said “Review Recent Activity,” which is the kind of thing Microsoft might include in a real alert. But since I only had a screenshot of the email, I couldn’t hover over the button to check where the link actually pointed. Still, knowing how phishing works, these buttons typically redirect to fake login pages that look like Microsoft but are designed to steal your credentials. The design and context of this button made it feel suspicious.
+
+
+### 4. **The Design Tried Too Hard**
+The email tried to copy Microsoft’s look with their color scheme and layout — but it wasn’t quite right. The spacing, fonts, and button styles were a bit off. It looked “almost” professional, but a little too rough to be genuine.
+
+### 5. **Unclear Sender Information**
+The email didn’t come from a verified Microsoft address. The sender’s address looked suspicious, possibly spoofed, or from a domain that was made to look close to Microsoft’s but wasn’t official.
+
+### 6. **Spelling and Formatting Glitches**
+I noticed small grammar or formatting issues — nothing major, but enough to make it feel unpolished. A legitimate Microsoft email would be clean and carefully written.
+
+---
+
+##  Conclusion
+This email was a good example of how phishing works — it wasn’t just about fake links, it was about how they use **urgency, fear, and appearance** to trick people. If I had clicked that link, it probably would’ve led to a fake login page trying to steal my password.
+
+By slowing down and checking things like the sender’s address, the real link behind the button, and the overall tone, I was able to spot it as a phishing attempt.
+
+---
+
+> 📝 *Note: This phishing email screenshot was taken from an online sample for educational purposes only.*
+
 
